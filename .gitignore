@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+
+# Signing material and secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+**/secrets.xml
+
+# Kotlin / Java
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
